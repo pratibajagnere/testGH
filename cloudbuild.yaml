@@ -25,5 +25,5 @@ steps:
 
 availableSecrets:
   secretManager:
-  - versionName: projects/pjagnere-jarvis/secrets/secret1/versions/latest
+  - versionName: projects/pjagnere-jarvis/secrets/secretGH/versions/latest
     env: 'SSH_KEY'
