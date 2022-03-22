@@ -18,7 +18,7 @@ steps:
   args:
   - clone
 #  - https://github.com/pratibajagnere/testGH.git
-  - git@github.com:pratibajagnere/testGH.git
+  - git@github.com:pratibajagnere/testGH
   volumes:
   - name: 'ssh'
     path: /root/.ssh
