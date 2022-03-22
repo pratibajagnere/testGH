@@ -17,8 +17,8 @@ steps:
 - name: 'gcr.io/cloud-builders/git'
   args:
   - clone
-  - https://github.com/pratibajagnere/testGH.git
-#  - git@github.com:pratibhajagnere/testGH.git
+#  - https://github.com/pratibajagnere/testGH.git
+  - git@github.com:pratibajagnere/testGH.git
   volumes:
   - name: 'ssh'
     path: /root/.ssh
