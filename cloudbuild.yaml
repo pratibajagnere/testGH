@@ -17,9 +17,6 @@ steps:
 - name: 'gcr.io/cloud-builders/git'
   args:
   - clone
-  - --single-branch
-  - -b test-cloudbuild
-#  - https://github.com/pratibajagnere/testGH.git
   - git@github.com:pratibajagnere/testGH
   volumes:
   - name: 'ssh'
