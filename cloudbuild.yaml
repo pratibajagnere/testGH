@@ -12,10 +12,7 @@ steps:
   volumes:
   - name: 'ssh'
     path: /root/.ssh
-
-substitutions:
-  _TEST_VAR: v6.9.1 
-    
+   
 # Clone the repository
 - name: 'gcr.io/cloud-builders/git'
   args:
@@ -29,3 +26,7 @@ availableSecrets:
   secretManager:
   - versionName: projects/pjagnere-jarvis/secrets/secretGH/versions/latest
     env: 'SSH_KEY'
+
+
+substitutions:
+  _TEST_VAR: ""
